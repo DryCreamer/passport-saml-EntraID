@@ -1,5 +1,15 @@
 # passport-saml-EntraID
 
+I don't really know how github works to make a fork, but this started as the bbraad passport-saml-example listed on passports documentation
+
+https://github.com/gbraad/passport-saml-example/
+
+I just want to give created that I didn't create this, I only modifed it to:
+1. Work with HTTPS
+2. Work with Entra ID
+3. View the SAML Claims from Entra ID
+4. View the entire SamlReponse
+
 Install NodeJS and NPM, if you haven't already, duh
 
 You'll need a SSL cert with as a .pem cert and its private key file 
