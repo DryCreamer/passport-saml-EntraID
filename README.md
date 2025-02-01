@@ -9,6 +9,7 @@ I just want to give created that I didn't create this, I only modifed it to:
 2. Work with Entra ID
 3. View the SAML Claims from Entra ID
 4. View the entire SamlReponse
+5. Maybe have some better steps to setup right out of the box
 
 Install NodeJS and NPM, if you haven't already, duh
 
