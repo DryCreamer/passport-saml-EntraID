@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1 Profile
+
+	dl
+		dt Display name
+		dd #{user.upn}
+		dt Email
+		dd #{user.mail}
+		dt Email
+		dd #{user.samlResponse}
+
+	a(href="/logout") Logout
