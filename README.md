@@ -1,6 +1,6 @@
 # passport-saml-EntraID
 
-I don't really know how github works to make a fork, but this started as the bbraad passport-saml-example listed on passports documentation
+I don't really know how github works to make a fork, but this started as Gerard Braad's passport-saml-example listed on passports documentation
 
 https://github.com/gbraad/passport-saml-example/
 
