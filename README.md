@@ -1,13 +1,13 @@
 # passport-saml-EntraID
 
-I don't really know how github works to make a fork, but this started as Gerard Braad's passport-saml-example listed on passports documentation
+I don't really know how github works to make a fork, but this started as Gerard Braad's passport-saml-example listed on passport's documentation
 
 https://github.com/gbraad/passport-saml-example/
 
 A lot of information was also dug up from the ADFS example deep inside the passport-saml repo
-Also from passports official documentation: https://www.passportjs.org/packages/passport-saml/
+Also from passport's official documentation: https://www.passportjs.org/packages/passport-saml/
 
-I just want to give created that I didn't create this, I only modifed it to:
+I just want to give credit due that I didn't create this, I only modifed it to:
 1. Work with HTTPS
 2. Work with Entra ID
 3. View the SAML Claims from Entra ID
