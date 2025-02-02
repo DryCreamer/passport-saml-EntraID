@@ -113,8 +113,13 @@ You can put any of the claims to pass back from your Entra ID Enterprise Applica
 
 We will need to remember the names of these to put into the actual 'Profile' and "Home' pages
 
-# Edting the webpages to display what we've pulled from SAMLResponse and put into the 'profile' object
+# Edting the .JADE Webpages
 
+To display what we've pulled from SAMLResponse and put into the 'profile' object
+	We are gonna make jaces to:
+ 	home.jade
+  	profile.jade
+   
 Open up app/view/home.jade
 You see the line: h1 Hello, #{user.firstName}
 
