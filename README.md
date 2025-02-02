@@ -4,6 +4,9 @@ I don't really know how github works to make a fork, but this started as the bbr
 
 https://github.com/gbraad/passport-saml-example/
 
+A lot of information was also dug up from the ADFS example deep inside the passport-saml repo
+Also from passports official documentation: https://www.passportjs.org/packages/passport-saml/
+
 I just want to give created that I didn't create this, I only modifed it to:
 1. Work with HTTPS
 2. Work with Entra ID
@@ -11,6 +14,7 @@ I just want to give created that I didn't create this, I only modifed it to:
 4. View the entire SamlReponse
 5. Maybe have some better steps to setup right out of the box
 
+Pre-requisites: 
 Install NodeJS and NPM, if you haven't already, duh
 
 You'll need a SSL cert with as a .pem cert and its private key file 
@@ -25,7 +29,8 @@ https://yourhostname:3000/login/callback
 
 the login/callback is kinda hard coded into the passport-saml js and files - its referenced for where to return the SAMLReponse POST
 
-copy the passport-saml-example to where ever you can launch it
+Install and Getting Started:
+Copy the passport-saml-example to where ever you can launch it
 
 in that location:
 put the .pfx or .pem cert files in that folder, same folder as app.js
@@ -37,20 +42,20 @@ example: npm install bootstrap
 
 this will put those modules in folder a called node_modules
 
-bootstrap, copy to /public/bower_compoenents - the steps didn't really call this out but you need it to avoid site errors
-jquery, copy to /public/bower_compoenents - I'm sure the fancy YAML files would install and move jquery and bootstrap
-express
-express-session
-https - this is added by me from the example for https - because http is effectively worthless in 2025
-fs - this is added by me from the example to read the file system for the https cert
-bower
-path
-passport
-passport-saml
-morgan
-cookie-parser
-body-parser
-errorhander
+1. bootstrap, copy to /public/bower_compoenents - the steps didn't really call this out but you need it to avoid site errors
+2. jquery, copy to /public/bower_compoenents - I'm sure the fancy YAML files would install and move jquery and bootstrap
+3. express
+4. express-session
+5. https - this is added by me from the example for https - because http is effectively worthless in 2025
+6. fs - this is added by me from the example to read the file system for the https cert
+7. bower
+8. path
+9. passport
+10. passport-saml
+11. morgan
+12. cookie-parser
+13. body-parser
+14. errorhander
 
 Open app.js and update the cert information at the 'const server = https.createServer' line
 
