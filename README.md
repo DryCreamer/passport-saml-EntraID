@@ -1,5 +1,5 @@
 # passport-saml-EntraID
-## Here's my crushingly autisitc video instructions
+## Here's my crushingly autistic video instructions
 https://www.youtube.com/watch?v=oPn96JiPu_8
 
 I don't really know how github works to make a fork, but this started as Gerard Braad's passport-saml-example listed on passport's documentation
