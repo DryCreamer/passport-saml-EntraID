@@ -75,7 +75,7 @@ In my youtube video its https://localhost:3000 - since that's what my cert has a
 
 Use ctrl+c to stop the server
 
-# Editing the Cofiguration and Claims
+# Editing the Configuration and Claims
 
 Under /config, edit the config.js file to have the client id, tenant saml2 link, and the cert from the Enterprise Application
 	the cert needs to be all one line, inside the ''
