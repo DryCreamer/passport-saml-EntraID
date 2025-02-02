@@ -12,6 +12,7 @@
       "name": "Christian Kuster",
       "email": "git@kusti.ch"
     },
+  ],
    "morecontributors": [
      {
        "name": "DryCreamer",
@@ -56,5 +57,4 @@
     "node": ">= 4.0.0"
   },
   "license": "MIT"
- }
 }
