@@ -3,7 +3,7 @@
 https://www.youtube.com/watch?v=oPn96JiPu_8
 
 I don't really know how github works to make a fork, but this started as Gerard Braad's passport-saml-example listed on passport's documentation.
-And yes, I'm sure the yaml files and other things do a faster install of dependancies that my tutorial, but this is how I worked it out.
+And yes, I'm sure the yaml files and other things do a faster install of dependancies than my tutorial, but this is how I worked it out.
 
 https://github.com/gbraad/passport-saml-example/
 
