@@ -14,7 +14,7 @@ I just want to give credit due that I didn't create this, I only modifed it to:
 4. View the entire SamlReponse
 5. Maybe have some better steps to setup right out of the box
 
-#Pre-requisites: 
+# Pre-requisites: 
 Install NodeJS and NPM, if you haven't already, duh
 
 You'll need a SSL cert with as a .pem cert and its private key file 
@@ -29,7 +29,7 @@ https://yourhostname:3000/login/callback
 
 the login/callback is kinda hard coded into the passport-saml js and files - its referenced for where to return the SAMLReponse POST
 
-#Install and Getting Started:
+# Install and Getting Started:
 Copy the passport-saml-example to where ever you can launch it
 
 in that location:
@@ -73,7 +73,7 @@ In my youtube video its https://localhost:3000 - since that's what my cert has a
 
 Use ctrl+c to stop the server
 
-#Editing the Cofiguration and Claims
+# Editing the Cofiguration and Claims
 
 Under /config, edit the config.js file to have the client id, tenant saml2 link, and the cert from the Enterprise Application
 	the cert needs to be all one line, inside the ''
@@ -113,7 +113,7 @@ You can put any of the claims to pass back from your Entra ID Enterprise Applica
 
 We will need to remember the names of these to put into the actual 'Profile' and "Home' pages
 
-#Edting the webpages to display what we've pulled from SAMLResponse and put into the 'profile' object
+# Edting the webpages to display what we've pulled from SAMLResponse and put into the 'profile' object
 
 Open up app/view/home.jade
 You see the line: h1 Hello, #{user.firstName}
