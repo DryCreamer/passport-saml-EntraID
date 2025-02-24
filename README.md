@@ -32,6 +32,10 @@ https://yourhostname:3000/login/callback
 
 the login/callback is kinda hard coded into the passport-saml js and files - its referenced for where to return the SAMLReponse POST
 
+>[TIP] If you need to use X509 certs and not passwords, you can add the 'urn:oasis:names:tc:SAML:2.0:ac:classes:X509' setting in the saml.js file 
+>If there are SSL errors when 'pulling' using npm install, then use 'npm config set strict-ssl false' during install
+>Errors during npm install can be view by setting logging to verbose: npm config set loglevel verbose
+
 # Install and Getting Started:
 Copy the passport-saml-example to where ever you can launch it
 
